@@ -1,0 +1,20 @@
+.wrapper {
+  width: 178px;
+  height: 195px;
+  background-color: rgb(239, 254, 254);
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+
+  .price_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .price_num {
+      font-size: 18px;
+    }
+    .price_rub {
+      font-size: 24px;
+    }
+  }
+}

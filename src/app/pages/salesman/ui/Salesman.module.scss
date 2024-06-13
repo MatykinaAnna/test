@@ -1,0 +1,49 @@
+button {
+  border: none;
+  background: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #3e0875;
+  width: 60%;
+
+  .header {
+    display: flex;
+    height: 55px;
+    background-color: rgba(167, 86, 249, 0.335);
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+
+    .login {
+      font-size: 24px;
+    }
+    .logOut {
+      background-image: url(../../../shared/img/logOut.png);
+      height: 50px;
+      width: 50px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.btn {
+  font-size: 24px;
+  color: #3e0875;
+}
+.line {
+  height: 1px;
+  color: #3e0875;
+  width: 100%;
+}
